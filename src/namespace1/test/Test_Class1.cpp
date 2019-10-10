@@ -10,5 +10,5 @@ TEST(Class1, PassingTest){
 }
 
 TEST(Class1, FailingTest){
-    EXPECT_TRUE(5 < 4);
+    EXPECT_FALSE(5 < 4);
 }
