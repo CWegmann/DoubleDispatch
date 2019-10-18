@@ -8,7 +8,7 @@ SpecificAlgorithmA::operator()(const Solid& solid){
 
 void
 SpecificAlgorithmA::operator()(const CylindricalSolid&){
-    std::cout << "apply specific algorithm A to spherical solid."
+    std::cout << "apply specific algorithm A to cylindrical solid."
               << std::endl;
 }
 
