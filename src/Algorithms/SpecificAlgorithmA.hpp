@@ -7,7 +7,7 @@ class SpecificAlgorithmA
         : public SolidAlgorithm{
 
 public:
-    void operator()(const Solid& solid);
+    void operator()(const Solid& solid) override;
     void operator()(const CylindricalSolid& solid) override;
     void operator()(const PlanarSolid& solid) override;
 

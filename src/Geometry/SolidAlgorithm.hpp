@@ -9,6 +9,7 @@ class SolidAlgorithm{
 public:
     virtual ~SolidAlgorithm() = default;
 
+    virtual void operator()(const Solid& solid) = 0;
     virtual void operator()(const CylindricalSolid& solid) = 0;
     virtual void operator()(const PlanarSolid& solid) = 0;
 
